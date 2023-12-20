@@ -27,7 +27,9 @@ e=(!e||e.length===0?"$default_instance":e).toLowerCase()
 }return n._iq[e]};e.amplitude=n})(window,document);
 
 options = {
-	logAttributionCapturedEvent: true
+	logAttributionCapturedEvent: true,
+	includeReferrer: true,
+	includeUtm: true
 }
 
 amplitude.getInstance().init("9e139c325cd539f85b840be18a103663", null, options);
